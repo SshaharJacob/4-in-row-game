@@ -17,38 +17,18 @@ for playing against the computer, change in one of the player to 'ai' instead 'h
 
 ===============================
 This program contains 4 files:
+
 1. game: contains a Game class.
 This class is in charge of all the changes in the board dictionary.
-The functions in this class are checking the board and make changes in it when
-needed.
-Main functions in this class:
-* 'make_move': checks if a move of a player is valid, if it is – puts its disc
-on the board. If not – raise an exception.
-* 'get_winner': checks the current state of the board and returns it. The state
-can be draw, a winner or None (if it's None the game continues). This function
-uses auxiliary functions that checks if there is a sequence of 4 discs of
-the same player in a row, column or a diagonal.
+The functions in this class are checking the board and make changes in it when needed.
 
 2. ai: This file contain an Ai class.
 In this class there is only one function- 'find_legal_move', which checks where
-the computer can put a disc on the board, and place it.
+the computer can put a disc on the board, and place it. 
 
 3. four_in_a_row: contains a GUI class. This class is in charge of the
 graphics of the game, and operating it as well. It changes the graphic board
 accordingly to the changes in the Game object (a board dictionary).
-Main functions in GUI class:
-* 'motion': this function is in charge of the indicator, which points out the
-column that the user mouse is on.
-* 'put_image': puts a disc on the graphic board, after checking if the move is
-legal, and updates the dictionary board. Uses 'put_image_helper' which is in
-charge of the image placement itself according to the current player (without
-any checkups).
-* 'callback': will be called when the mouse of the current player is clicked
-(will not work if a player clicked his mouse not in his turn). Will call
-'put_image' according to the column the user clicked on.
-* 'play_with_comp': will be called when it's the computer's turn. Uses
-'find_legal_move' from the file ai.py to 'decide' where to put its disc.
-Returns the column of the disc placed.
 
 4. communicator: auxiliary file provided by the course staff.
 ===============================
