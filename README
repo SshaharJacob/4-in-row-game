@@ -14,6 +14,8 @@ second player: human 8000 IP
 while IP can be found with this command: print(socket.gethostbyname(socket.gethostname()))
 for playing against the computer, change in one of the player to 'ai' instead 'human'.
 
+
+===============================
 This program contains 4 files:
 1. game: contains a Game class.
 This class is in charge of all the changes in the board dictionary.
@@ -49,7 +51,7 @@ any checkups).
 Returns the column of the disc placed.
 
 4. communicator: auxiliary file provided by the course staff.
-
+===============================
 
 
 
