@@ -3,7 +3,12 @@ By Shahar Jacob
 ==================
 =  Description:  =
 ==================
-for playing player vs player, put this parameters:
+Here I present the game '4 in a row'. The user has the option to play against another player or against a computer. 
+The program incorporates GUI graphical interface.
+
+For playing, the server should insert the fllowing parameters: human/ai port
+The client should insert the fllowing parameters: human/ai port ip
+for example, for playing player vs player, put this parameters:
 first player (host): human 8000
 second player: human 8000 IP
 while IP can be found with this command: print(socket.gethostbyname(socket.gethostname()))
