@@ -1,11 +1,3 @@
-##############################################################################
-# FILE: ai.py
-# WRITERS: Shahar Jacob, shahar.jacob, 305255176
-# Eden Elmaliah ,eden.e236, 204625206
-# EXERCISE: ex12
-# DESCRIPTION: in this file there is a class of artificial intelligence (AI).
-# an ai object will make moves on the game board using the function in it.
-##############################################################################
 
 import random
 
