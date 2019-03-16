@@ -1,12 +1,3 @@
-##############################################################################
-# FILE: four_in_a_row.py
-# WRITERS: Shahar Jacob, shahar.jacob, 305255176
-# Eden Elmaliah ,eden.e236, 204625206
-# EXERCISE: ex12
-# DESCRIPTION: in this file there is the execution of the four in a row
-# game, including the graphic (gui) methods, communication between 2 players
-#  (can be both human or computer), etc.  ENJOY!
-##############################################################################
 
 import tkinter as tk
 from game import Game
