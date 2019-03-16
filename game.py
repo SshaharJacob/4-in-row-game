@@ -1,12 +1,3 @@
-##############################################################################
-# FILE: game.py
-# WRITERS: Shahar Jacob, shahar.jacob, 305255176
-# Eden Elmaliah ,eden.e236, 204625206
-# EXERCISE: ex12
-# DESCRIPTION: in this file there is the logic behind the four in a row
-# game.
-##############################################################################
-
 
 class Game:
     """
